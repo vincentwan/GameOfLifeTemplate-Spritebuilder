@@ -41,6 +41,7 @@ static const int GRID_COLUMNS = 10;
     float y = 0;
     
     _generation = 0;
+    _totalAlive = 0;
     
     // initialize the array as a blank NSMutableArray
     _gridArray = [NSMutableArray array];
