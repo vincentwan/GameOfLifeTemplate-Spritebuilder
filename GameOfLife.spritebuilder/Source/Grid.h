@@ -10,4 +10,8 @@
 
 @interface Grid : CCSprite
 
+- (void)evolveStep;
+- (void)countNeighbors;
+- (void)updateCreatures;
+
 @end
