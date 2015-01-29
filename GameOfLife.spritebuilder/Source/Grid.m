@@ -17,8 +17,6 @@ static const int GRID_COLUMNS = 10;
     NSMutableArray *_gridArray;
     float _cellWidth;
     float _cellHeight;
-    int _generation;
-    int _totalAlive;
 }
 
 - (void)onEnter
